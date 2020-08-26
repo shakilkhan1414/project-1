@@ -1,0 +1,253 @@
+@media screen and (max-width: 600px)
+{
+    .logo h1{
+        margin-left: 20px;
+    }
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+        margin: 0;
+        margin-top: 1px;
+        display: none;  
+    }
+    
+    nav ul li{
+        z-index: 50;
+        padding: 5px 0 5px 0;
+        background-color: white;
+        border-bottom: 1px solid silver;
+    }
+    nav ul li:last-child a{
+        border: none;
+    }
+    .ham-menu{
+        display: inline-block;
+    }
+    .socal-icon ul li i{
+        padding: 3px;
+    }
+    .other-text .fp{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .other-text .fph{
+        margin-top:-20px;
+    }
+    .other-text .sp{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .other-text a{
+        padding: 5px 15px 0 15px;
+    }
+    #content{
+        height: auto;
+    }
+    .colum-3{
+        flex-direction: column;
+    }
+    .colum-3 div{
+        width: 80%;
+        border: none;
+        border-bottom: 1px solid #778ca3;;
+    }
+    .colum-3 div:last-child{
+        border-bottom: none;
+    }
+    .colum-3 div .head{
+        font-size: 28px;
+    }
+    .colum-3 div:first-child{
+        border-radius: 10px 10px 0 0;
+    }
+    .colum-3 div:last-child{
+        border-radius: 0 0 10px 10px;
+    }
+    .colum-2{
+
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    .colum-2 .left-content{
+        width: 90%;
+        position: relative;
+        margin-left: -40px;
+    }
+    .left-content a{
+        margin-left:70px ;
+    }
+    .img-content{
+        position: relative;
+        width: 90%;
+        margin-top: 30px;
+        margin-left:-150px ;
+    }
+    #map{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    #map .s-content h1{
+        font-size: 18px;
+    }
+    #map .s-content p{
+        font-size: 15px;
+    }
+    #map .inputs{
+        flex-direction: column;
+        height: auto;
+        margin-top: 80px;
+    }
+    #map .inputs input[type=text]{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    #map .inputs a{
+        margin-bottom: 20px;
+    }
+    #skill{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    #skill div{
+        width: 90%;
+        margin-bottom: 50px;
+        padding: 40px 0 50px 0;
+    }
+   
+
+    #logos{
+        display: none;
+    }
+    #price{
+        height: auto;
+    }
+    #price .pcontent{
+        flex-direction: column;
+    }
+    #price .pcontent div{
+        width: 90%;
+        height: 370px;
+        margin-top: 30px;
+    }
+    #counting{
+        height: auto;
+        flex-direction: column;
+    }
+    #counting div{
+        margin-top: 50px;
+    }
+    #counting div:last-child{
+        margin-bottom: 40px;
+    }
+    #pictures{
+        flex-direction: column;
+        height: auto;
+    }
+    #pictures div{
+        width: 100%;
+    }
+    #news{
+        height: auto;
+    }
+    #news .wrap{
+        flex-direction: column;
+    }
+    #news .wrap div{
+        width: 90%;
+        height: 460px;
+        margin-left: 0;
+    }
+    #news .wrap div a{
+        font-size: 14px;
+        padding: 5px 20px 2px 20px;
+    }
+    #news .wrap div h1{
+        font-size: 22px;
+    }
+    #slider{
+        height: auto;
+    }
+    #slider .owl-carousel{
+        width: 100%;
+        margin-bottom: 35px;
+        height: 60%;
+    }
+    #slider .owl-carousel .item{
+        width: 75%;
+        text-align: center;
+    }
+    #slider .owl-carousel .item p{
+        font-size: 15px;
+    }
+    .owl-nav .owl-prev{
+        left: 15px;
+    }
+    .owl-nav .owl-next{
+        right:15px;
+    }
+    #foot{
+        height: auto;
+    }
+    #foot .foorer-sections{
+        flex-direction: column;
+    }
+    #foot .foorer-sections .contact-us{
+        width: 90%;
+        text-align: center;
+    }
+    #foot .foorer-sections .contact-us ul{
+        margin-left: 10px;
+    }
+    #foot .foorer-sections .usefull-links{
+        width: 90%;
+        text-align: center;
+    }
+    #foot .foorer-sections .usefull-links div {
+        width: 100%;
+        text-align: left;
+    }
+    #foot .foorer-sections .usefull-links div ul{
+        width: 50%;
+        font-size: 16px;
+    }
+    #foot .foorer-sections .usefull-links div ul.second-list{
+        margin-left: 120px;
+    }
+    #foot .blog-news{
+        width: 100%;
+        text-align: center;
+    }
+    #foot .blog-news .conta{
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #foot .copyright{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    #foot .copyright p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #foot .copyright ul li{
+        margin: 10px;
+    }
+    #foot .copyright ul li{
+        font-size: 15px;
+    }
+}
