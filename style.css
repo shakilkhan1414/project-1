@@ -621,6 +621,9 @@ nav ul li.s:hover::before{
 #foot .foorer-sections .contact-us ul li:first-child{
     margin-left: 0;
 }
+#foot .foorer-sections .contact-us ul li:last-child{
+    margin-right: 0;
+}
 #foot .foorer-sections .contact-us ul li a{
     text-decoration:none ;
     color: white;
@@ -716,7 +719,7 @@ nav ul li.s:hover::before{
 }
 .ham-menu{
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 0px;
     height: 50px;
     width:50px;
@@ -724,4 +727,45 @@ nav ul li.s:hover::before{
     cursor: pointer;
     display: none;
 }
-
+.alert{
+    height: 50px;
+    width: 250px;
+    position: fixed;
+    right: -20%;
+    top: 30%;
+    background: #7F00FF;
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    border-radius: 10px 0 0 10px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 500;
+}
+.alert p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.alert-2{
+    height: 50px;
+    width: 250px;
+    position: fixed;
+    right: -20%;
+    top: 20%;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px 0 0 10px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 500;
+}
+.alert-2 p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    line-height: 50px;
+    margin-left: 30px;
+}

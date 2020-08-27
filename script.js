@@ -5,6 +5,14 @@ $(document).ready(function(){
    })
   });
 
+  $("#map .inputs a").click(function(){
+    $(".alert-2").animate({right:"0",opacity:"1"},1000).animate({right:"0",opacity:"1"},2000).animate({right:"-25%",opacity:"0"},3000);
+});
+
+$("nav ul li:last-child").click(function(){
+    $(".alert").animate({right:"0",opacity:"1"},1000).animate({right:"0",opacity:"1"},2000).animate({right:"-25%",opacity:"0"},3000);
+});
+
   
 $('.owl-carousel').owlCarousel({
     loop:true,

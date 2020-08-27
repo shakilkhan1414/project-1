@@ -263,4 +263,26 @@
     #foot .copyright ul li{
         font-size: 15px;
     }
+    .alert{
+        width: 200px;
+        height: 40px;
+        top: 15%;
+        right: -45%;
+    }
+    .alert p{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .alert-2{
+        width: 200px;
+        height: 40px;
+        top: 15%;
+        right: -45%;
+    }
+    .alert-2 p{
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+
 }
