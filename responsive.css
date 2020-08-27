@@ -88,7 +88,7 @@
         
     }
     .left-content a{
-        margin-left:60px;
+        margin-left:40%;
     }
     .img-content{
         position: relative;
@@ -212,7 +212,7 @@
         text-align: center;
     }
     #foot .foorer-sections .contact-us ul{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #foot .foorer-sections .usefull-links{
         width: 90%;
@@ -220,7 +220,8 @@
     }
     #foot .foorer-sections .usefull-links div {
         width: 100%;
-        text-align: left;
+        text-align: center;
+        margin-left: 20px;
     }
     #foot .foorer-sections .usefull-links div ul{
         width: 50%;
