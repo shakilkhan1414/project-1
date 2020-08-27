@@ -229,7 +229,7 @@
     #foot .foorer-sections .usefull-links div {
         justify-content: center;
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin-left: 40px;
     }
     #foot .foorer-sections .usefull-links div ul{
