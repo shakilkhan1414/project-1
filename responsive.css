@@ -85,10 +85,14 @@
         width: 90%;
         position: relative;
         left: 20px;
+        margin-bottom: 30px;
         
     }
     .left-content a{
-        margin-left:30%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,10px);
+
     }
     .img-content{
         position: relative;
@@ -210,15 +214,20 @@
     #foot .foorer-sections .contact-us{
         width: 90%;
         text-align: center;
+        position: relative;
+        margin-bottom: 20px;
     }
     #foot .foorer-sections .contact-us ul{
-        margin-left: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
     #foot .foorer-sections .usefull-links{
         width: 90%;
         text-align: center;
     }
     #foot .foorer-sections .usefull-links div {
+        justify-content: center;
         width: 100%;
         text-align: center;
         margin-left: 40px;
